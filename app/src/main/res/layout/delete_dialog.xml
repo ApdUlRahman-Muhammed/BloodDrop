@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="120dp"
+	android:layout_gravity="top"
+	android:layout_marginTop="10dp"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/editTextDeleteID"
+		android:layout_width="267dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:ems="10"
+		android:hint="@string/phone_delete"
+		android:inputType="textPersonName" />
+
+	<Button
+		android:id="@+id/DeleteById"
+		android:layout_width="238dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/animation"
+		android:elevation="8dp"
+		android:text="@string/delete"
+		android:textColor="#fff"
+		android:textStyle="bold" />
+</LinearLayout>

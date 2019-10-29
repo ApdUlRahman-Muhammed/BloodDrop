@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fff"
+
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<ProgressBar
+		android:id="@+id/progressBar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:visibility="gone" />
+
+	<ImageView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="142dp"
+		android:background="@drawable/titlelogin"
+		android:contentDescription="@string/give_the_gift_of_life_donate_blood"
+		android:text="@string/welcome"
+		android:textSize="23sp" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:orientation="horizontal">
+
+		<EditText
+			android:id="@+id/IdEmail"
+			android:layout_width="400dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="5dp"
+			android:ems="10"
+			android:hint="@string/enter_your_email"
+			android:inputType="textEmailAddress"
+			tools:ignore="TextFields" />
+
+		<ImageView
+			android:id="@+id/imageView"
+			android:layout_width="35dp"
+			android:layout_height="45dp"
+
+			android:layout_gravity="center"
+			android:layout_marginStart="10dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:contentDescription="@string/username_icon"
+			app:srcCompat="@drawable/user" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal">
+
+		<EditText
+			android:id="@+id/IdPassword"
+			android:layout_width="400dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="5dp"
+			android:ems="10"
+			android:hint="@string/enter_your_password"
+			android:inputType="textPassword" />
+
+		<ImageView
+			android:id="@+id/passwordimage"
+			android:layout_width="35dp"
+			android:layout_height="45dp"
+
+			android:layout_gravity="center"
+			android:layout_marginStart="10dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:contentDescription="@string/passwor_icon"
+			app:srcCompat="@drawable/password" />
+
+
+	</LinearLayout>
+
+
+	<Button
+		android:id="@+id/IDLogin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginStart="129dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginEnd="129dp"
+		android:background="@drawable/animation"
+		android:text="@string/login"
+		android:textColor="#fff"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/forget"
+		android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_marginBottom="70dp"
+		android:text="@string/forget"
+		android:textColor="@color/AccountText"
+		tools:ignore="RtlHardcoded" />
+
+	<TextView
+		android:id="@+id/IdAccount"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="37dp"
+		android:layout_marginEnd="84dp"
+		android:clickable="false"
+		android:text="@string/enter_your_data_and_create_account"
+		android:textColor="#000"
+		android:textSize="30sp" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/mainActivityId"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#fff"
+		android:orientation="vertical"
+		tools:context=".SignIn">
+
+
+		<EditText
+			android:id="@+id/editTextEmail"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="60dp"
+			android:ems="10"
+			android:hint="@string/enter_your_email"
+			android:inputType="textEmailAddress"
+			tools:ignore="TextFields" />
+
+		<EditText
+			android:id="@+id/editTextName"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:ems="10"
+			android:hint="@string/enter_your_name"
+			android:inputType="textPersonName"
+			tools:ignore="LabelFor,TextFields" />
+
+		<EditText
+			android:id="@+id/editTextPassword"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:ems="10"
+			android:hint="@string/enter_your_password"
+			android:inputType="textPassword" />
+
+
+		<RadioGroup
+			android:layout_width="358dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+
+			android:layout_marginStart="30dp"
+			android:layout_marginTop="20dp"
+			android:orientation="horizontal"
+			tools:ignore="RtlHardcoded">
+
+			<RadioButton
+				android:id="@+id/radioButtonMale"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/male" />
+
+			<RadioButton
+				android:id="@+id/radioButtonFemale"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/female" />
+		</RadioGroup>
+
+		<Button
+			android:id="@+id/RegisterBtn"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:background="@drawable/animation"
+			android:elevation="8dp"
+			android:shadowRadius="2"
+			android:text="@string/register"
+			android:textColor="#fff"
+			android:textStyle="bold" />
+
+
+	</LinearLayout>
+</LinearLayout>

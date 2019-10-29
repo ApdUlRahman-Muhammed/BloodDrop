@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/DonorActivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fff"
+	android:orientation="vertical"
+	tools:context=".DonationActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary"
+		android:minHeight="?attr/actionBarSize"
+		android:theme="?attr/actionBarTheme">
+
+		<ImageView
+			android:id="@+id/backarrow"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_marginStart="320dp"
+			android:contentDescription="@string/back_arrow"
+			app:srcCompat="@drawable/arrooow" />
+
+	</android.support.v7.widget.Toolbar>
+
+	<ImageView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="160dp"
+		android:background="@drawable/titlelogin"
+		android:textSize="23sp" />
+
+	<EditText
+		android:id="@+id/editTextId"
+		android:layout_width="370dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:ems="10"
+		android:hint="@string/enter_your_id"
+		android:inputType="textPersonName"
+		tools:ignore="TextFields" />
+
+	<EditText
+		android:id="@+id/editTextName"
+		android:layout_width="370dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="30dp"
+		android:ems="10"
+		android:hint="@string/Donor_name"
+		android:inputType="textPersonName"
+		tools:ignore="TextFields" />
+
+	<Spinner
+		android:id="@+id/spinnerAddress"
+		android:layout_width="370dp"
+		android:layout_height="50dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:ems="10"
+		android:entries="@array/Cities"
+		android:hint="@string/blood_type_donor" />
+
+	<EditText
+		android:id="@+id/editTextPhone"
+		android:layout_width="370dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="30dp"
+		android:ems="10"
+		android:hint="@string/donor_phone"
+		android:inputType="phone"
+		tools:ignore="TextFields" />
+
+
+	<Spinner
+		android:id="@+id/editTextType"
+		android:layout_width="370dp"
+		android:layout_height="50dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="30dp"
+		android:ems="10"
+		android:entries="@array/Donors"
+		android:hint="@string/blood_type_donor" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="30dp"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/AddBtn"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="0dp"
+			android:background="@drawable/animation"
+			android:elevation="8dp"
+			android:text="@string/add_button"
+			android:textColor="#fff"
+			android:textStyle="bold"
+			tools:ignore="ButtonStyle" />
+
+		<Button
+			android:id="@+id/updateBtn"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginStart="15sp"
+			android:layout_marginTop="0dp"
+			android:background="@drawable/animation"
+			android:elevation="8dp"
+			android:text="@string/update_button"
+			android:textColor="#fff"
+			android:textStyle="bold"
+			tools:ignore="ButtonStyle" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="500dp"
+		android:layout_height="100dp"
+		android:layout_gravity="center"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="100dp"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:id="@+id/googleMapId"
+			android:layout_width="400dp"
+			android:layout_height="75dp"
+			android:layout_gravity="bottom"
+			android:layout_marginBottom="10dp"
+			android:contentDescription="@string/google_map_image"
+			android:scaleType="centerCrop"
+			app:srcCompat="@drawable/googlemap" />
+
+
+	</LinearLayout>
+
+</LinearLayout>

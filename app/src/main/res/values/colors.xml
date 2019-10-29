@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#d50000</color>
+	<color name="colorPrimaryDark">#B71C1C</color>
+	<color name="colorAccent">#e91e63</color>
+	<color name="AccountText">#3F51B5</color>
+</resources>

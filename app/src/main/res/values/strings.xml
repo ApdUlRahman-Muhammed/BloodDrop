@@ -1,0 +1,153 @@
+<resources>
+	<string name="app_name">Blood Drop</string>
+	<string name="welcome">Blood Drop World</string>
+	<string name="login">Login</string>
+	<string name="name">Name</string>
+	<string name="password">Password</string>
+	<string name="forget">Forget Password?</string>
+	<string name="account">do not have account yet?</string>
+	<string name="enter_your_email">Enter your Email</string>
+	<string name="enter_your_password">Enter your password</string>
+	<string name="image_contains_heart_and_blood_container">heart and blood</string>
+	<string name="email_hint">Email</string>
+	<string name="name_hint">Name</string>
+	<string name="password_hint">Password</string>
+	<string name="phone_hint">Phone</string>
+	<string name="address_hint">Address</string>
+	<string name="maleButton">Male</string>
+	<string name="femaleButton">Female</string>
+	<string name="submit">submit</string>
+	<string name="username_icon">username icon</string>
+	<string name="passwor_icon">passwor icon</string>
+	<string name="give_the_gift_of_life_donate_blood">give a life</string>
+	<string name="patientBt">Patient</string>
+	<string name="donorBt">Donor</string>
+	<string name="image_contains_heart_and_blood_container_which_are_connected_to_each_other">heart and blood</string>
+	<string name="Donor_name">Enter your name</string>
+	<string name="donor_phone">Enter your phone</string>
+	<string name="blood_type_donor">blood type</string>
+	<string name="add_button">Add</string>
+	<string name="update_button">click to update</string>
+	<string name="delete_button">Delete</string>
+	<string name="phone_delete">Phone</string>
+	<string name="updateBTn">update</string>
+	<string name="enter_your_address">Enter your Address</string>
+	<string name="delete_dialog">Delete</string>
+	<string name="enter_your_id">Enter your ID</string>
+	<string name="delete">Delete</string>
+	<string name="search_here">Enter blood type to search</string>
+	<string name="search_button">search button</string>
+	<array name="Donors">
+		<item>A+</item>
+		<item>AB-</item>
+		<item>O-</item>
+		<item>O+</item>
+		<item>B+</item>
+		<item>A-</item>
+		<item>B-</item>
+		<item>AB+</item>
+	</array>
+	<string name="users_list_name">Donors List </string>
+	<string name="pref_widget_key">pref_widget_key</string>
+	<string name="pref_title_key">pref_title_key</string>
+	<string name="widget_text">Enter a recipe and click add widget button</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="enter_your_registered_email">Enter your registered Email</string>
+	<string name="reset">Reset</string>
+	<string name="sign_out">sign out</string>
+	<string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-6552025485690354/9244040835</string>
+	<string name="device_id" translatable="false">1E7145215208BE449B00742AA5D68BE0</string>
+	<string name="title_activity_maps">Map</string>
+	<string name="enter_your_name">Enter your name</string>
+	<string name="female">Female</string>
+	<string name="male">Male</string>
+	<string name="register">register</string>
+	<string name="enter_your_data_and_create_account">Enter your data and create account</string>
+	<string name="donor">Donor</string>
+	<string name="patient">Patient</string>
+	<string name="click_to_see_location_s_donors_on_google_map">click to see location\'s Donors on google map</string>
+	<string name="google_map_image">Google Map Image</string>
+	<string name="click_on_google_map_image_to_see_donor_s_location">click on google map image to see donor\'s location</string>
+	<string name="google_map">Google Map</string>
+	<string name="resetPassword">Reset  your Password</string>
+	<string name="ResetEmail">Email is required</string>
+	<string name="checkYourEmail">We have sent you instructions to reset your password! please check your Email</string>
+	<string name="failedToReset">Failed to send reset email!</string>
+	<string name="showDialogTitle">Delete  your data</string>
+	<string name="invalidEmail">Email is invalid</string>
+	<string name="EmailRequired">Email is required</string>
+	<string name="PasswordRequired">password is required</string>
+	<string name="nameRequired">name is required</string>
+	<string name="passwordCondition">password should be more than 6 char</string>
+	<string name="userRegSuccessfully">user Registered Successfully</string>
+	<string name="userAlreadyIn">you have already registered</string>
+	<string name="back_arrow">back arrow</string>
+	<string name="DeletedSuccessfully">Donor Deleted successfully</string>
+	<string name="idNOTfound">sorry this ID not found</string>
+	<string name="AddCondition">Id must be more than 6 numbers</string>
+	<string name="EnteryourName">Enter your name</string>
+	<string name="phoneIsRequared">phone is required</string>
+	<string name="bloodIsRewquared">blood type is required</string>
+	<string name="updatedSuccessfully">Donor updated successfully</string>
+	<string name="callNumber">Click to any number to call him</string>
+	<string name="DonorAdded">Donor added</string>
+	<string name="plzWait">Please Wait...</string>
+	<string name="Cairo">Cairo</string>
+	<string name="Alex">Alexandria</string>
+	<string name="Giza">Giza</string>
+	<string name="portSaid">Port Said</string>
+	<string name="sues">Suez</string>
+	<string name="luxor">Luxor</string>
+	<string name="Asyut">Asyut</string>
+	<string name="Aswan">Aswan</string>
+	<string name="Ismailia">Ismailia</string>
+	<string name="Damietta">Damietta</string>
+	<string name="Minya">al-Minya</string>
+	<string name="BeniSuef">Beni Suef</string>
+	<string name="Qena">Qena</string>
+	<string name="Sohag">Sohag</string>
+	<string name="KafrelSheikh">Kafr el-Sheikh</string>
+	<string name="Arish">Arish</string>
+	<string name="MarsaMatruh">Marsa Matruh</string>
+	<string name="Hurghada">Hurghada</string>
+	<string name="SharmElSheikh">Sharm El Sheikh</string>
+	<string name="Monufia">Monufia</string>
+	<string name="Sharqia">Sharqia</string>
+	<string name="Gharbia">Gharbia</string>
+	<string name="AddedTowidget">Added to widget</string>
+	<string name="AdUnitId">ca-app-pub-6552025485690354/9244040835</string>
+	<string name="DonorUpdatedSuccessfully">Donor updated successfully</string>
+	<array name="Cities">
+		<item>Cairo</item>
+		<item>Alexandria</item>
+		<item>Giza</item>
+		<item>Port Said</item>
+		<item>Suez</item>
+		<item>Luxor</item>
+		<item>Asyut</item>
+		<item>Aswan</item>
+
+		<item>Ismailia</item>
+		<item>Damietta</item>
+		<item>al-Minya</item>
+		<item>Beni Suef</item>
+		<item>Qena</item>
+		<item>Sohag</item>
+
+		<item>Kafr el-Sheikh</item>
+
+		<item>Arish</item>
+		<item>Marsa Matruh</item>
+		<item>Hurghada</item>
+
+		<item>Sharm El Sheikh</item>
+		<item>Monufia</item>
+		<item>Sharqia</item>
+		<item>Gharbia</item>
+
+
+	</array>
+
+</resources>
+

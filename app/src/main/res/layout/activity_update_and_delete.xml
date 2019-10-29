@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fff"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/editTextIdDelete"
+		android:layout_width="@dimen/editTextIdDeleteWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/editTextIdDeleteMarginTop"
+		android:ems="10"
+		android:hint="@string/enter_your_id"
+		android:inputType="textPersonName"
+		tools:ignore="TextFields" />
+
+	<EditText
+		android:id="@+id/updateName"
+		android:layout_width="@dimen/updateNameWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/updateNameMarignTop"
+		android:ems="10"
+		android:hint="@string/Donor_name"
+		android:inputType="textPersonName"
+		tools:ignore="TextFields" />
+
+	<EditText
+		android:id="@+id/updateAddress"
+		android:layout_width="@dimen/updateAddressWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/updateAddressMarginTop"
+		android:ems="10"
+		android:hint="@string/enter_your_address"
+		android:inputType="textPersonName"
+		tools:ignore="TextFields" />
+
+	<EditText
+		android:id="@+id/updatePhone"
+		android:layout_width="@dimen/updatePhoneWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/updatePhoneMarginTop"
+		android:ems="10"
+		android:hint="@string/donor_phone"
+		android:inputType="phone"
+		tools:ignore="TextFields" />
+
+
+	<Spinner
+		android:id="@+id/UpdateType"
+		android:layout_width="@dimen/UpdateTypeWidth"
+		android:layout_height="@dimen/UpdateTypeHeight"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/UpdateTypeMarginTop"
+		android:ems="10"
+		android:entries="@array/Donors"
+		android:hint="@string/blood_type_donor" />
+
+	<Button
+		android:id="@+id/update"
+		android:layout_width="@dimen/updateWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/updateMarginTop"
+		android:background="@drawable/animation"
+		android:elevation="@dimen/updateElevation"
+
+		android:text="@string/updateBTn"
+		android:textColor="#fff"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/Delete"
+		android:layout_width="@dimen/DeleteWidth"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="@dimen/DeleteMarginTop"
+		android:background="@drawable/animation"
+		android:elevation="@dimen/DeleteElevation"
+
+		android:text="@string/delete_dialog"
+		android:textColor="#fff"
+		android:textStyle="bold" />
+</LinearLayout>

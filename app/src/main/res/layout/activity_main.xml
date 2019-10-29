@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/mainActivityPhone"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/cardview_dark_background"
+	tools:context=".MainActivity">
+
+
+	<ImageView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:layout_marginBottom="21dp"
+		android:background="@drawable/titlelogin"
+		android:text="@string/welcome"
+		android:textSize="23sp"
+
+		app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/linearLayout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginStart="62dp"
+		android:layout_marginTop="21dp"
+		android:layout_marginEnd="62dp"
+		android:layout_marginBottom="27dp"
+		android:orientation="horizontal"
+		app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+		<EditText
+			android:id="@+id/IdEmail"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="10"
+			android:hint="@string/enter_your_email"
+			android:inputType="textEmailAddress"
+			android:textColor="#fff"
+			android:textColorHint="#fff"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/imageView"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:ignore="TextFields" />
+
+		<ImageView
+			android:id="@+id/imageView"
+			android:layout_width="35dp"
+			android:layout_height="45dp"
+			android:layout_gravity="center"
+			android:contentDescription="@string/username_icon"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/IdEmail"
+			app:layout_constraintTop_toTopOf="parent"
+			app:srcCompat="@drawable/user" />
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/linearLayout2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginStart="62dp"
+		android:layout_marginTop="12dp"
+		android:layout_marginEnd="62dp"
+		android:layout_marginBottom="26dp"
+		android:orientation="horizontal"
+		app:layout_constraintBottom_toTopOf="@+id/IDLogin"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+		<EditText
+			android:id="@+id/IdPassword"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="10"
+			android:hint="@string/enter_your_password"
+			android:inputType="textPassword"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/passwordimage"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<ImageView
+			android:id="@+id/passwordimage"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+
+			android:layout_gravity="center"
+			android:contentDescription="@string/passwor_icon"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/IdPassword"
+			app:layout_constraintTop_toTopOf="parent"
+			app:srcCompat="@drawable/password" />
+
+
+	</android.support.constraint.ConstraintLayout>
+
+
+	<Button
+		android:id="@+id/IDLogin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="135dp"
+		android:layout_marginTop="12dp"
+		android:layout_marginEnd="161dp"
+		android:layout_marginBottom="30dp"
+		android:background="@drawable/animation"
+		android:text="@string/login"
+		android:textColor="#fff"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/linearLayout3"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="15dp"
+		android:gravity="center"
+
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/IDLogin">
+
+		<TextView
+			android:id="@+id/IdAccount"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="200dp"
+			android:layout_marginRight="276dp"
+			android:layout_marginBottom="31dp"
+			android:text="@string/account"
+			android:textColor="@color/AccountText"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="1.0"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="1.0" />
+
+		<TextView
+			android:id="@+id/forget"
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="121dp"
+			android:layout_marginEnd="35dp"
+			android:layout_marginBottom="31dp"
+			android:text="@string/forget"
+			android:textColor="@color/AccountText"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/IdAccount"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+	</android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

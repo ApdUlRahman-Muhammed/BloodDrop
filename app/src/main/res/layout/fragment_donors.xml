@@ -1,0 +1,37 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.android.blooddrop.Patient">
+
+
+	<EditText
+		android:id="@+id/editTextSearch"
+		android:layout_width="match_parent"
+		android:layout_height="57dp"
+		android:layout_marginEnd="4dp"
+		android:layout_marginBottom="4dp"
+		android:background="@drawable/anim_search"
+		android:hint="@string/search_here"
+		android:inputType="textPersonName"
+		android:textAlignment="center"
+		app:layout_constraintBottom_toTopOf="@+id/rv_list_donors"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/rv_list_donors"
+		android:layout_width="match_parent"
+		android:layout_height="453dp"
+		android:layout_marginTop="7dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextSearch" />
+
+
+</android.support.constraint.ConstraintLayout>

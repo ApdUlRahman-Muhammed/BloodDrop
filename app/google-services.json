@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476107883473",
+    "firebase_url": "https://blood-drop-319c6.firebaseio.com",
+    "project_id": "blood-drop-319c6",
+    "storage_bucket": "blood-drop-319c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476107883473:android:9003e815f32ecab60056f0",
+        "android_client_info": {
+          "package_name": "com.example.android.blooddrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476107883473-5sin14vuehocm41ggk9tlq7jn13b8nrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSRzxGtfnsJFaKpw-ejYupGzWMtpfDJUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476107883473-5sin14vuehocm41ggk9tlq7jn13b8nrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
